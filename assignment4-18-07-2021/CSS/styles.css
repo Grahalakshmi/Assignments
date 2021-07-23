@@ -1,0 +1,45 @@
+*{
+background-color: bisque;
+}
+pre
+{    
+    border: solid;
+    color: seagreen;
+}
+#bordercolor
+{
+    border: dotted;
+    color:violet;
+}
+.borderclr
+{
+    border:double; 
+    color:red;
+    }
+h3 p
+{
+    border:solid;
+    color:blue;
+}
+h3>p
+{
+    border:dotted;
+    color: grey;
+}
+[class]
+{
+    text-align: center;
+    border-color: yellow;
+}
+[class="border"]
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:chocolate
+}
+h2[class="border"]
+{
+    color:violet;
+    border: tomato;
+    border:double;
+}
+   

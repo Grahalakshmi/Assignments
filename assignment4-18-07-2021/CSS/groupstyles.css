@@ -1,0 +1,47 @@
+*
+{
+    background-color: thistle;
+}
+#bgcolor
+{
+    border:solid;
+    Color:red;
+    border-color: teal;
+}
+.bgcolor
+{
+    border:dotted;
+    color:blue;
+    border-color: red;
+}
+p
+{
+    border:double;
+    color:white;
+    border-color: grey;
+}
+input[type="text"]
+{
+    border:solid;
+    color: hotpink;
+    border-color:slateblue;
+}
+h4 ul
+{
+    border: dotted;
+    color:lightseagreen;
+    border-color: maroon;
+
+}
+h4>ul
+{
+    border:solid;
+    color:yellow;
+    border-color: sienna;
+}
+h4>.bg{
+    border: solid;
+    color:purple;
+    border-color:peru;
+}
+
