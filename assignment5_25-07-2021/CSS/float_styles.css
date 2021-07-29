@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;    
+}
+body{
+    margin: 0px;
+}
+header{
+width:100%;
+background-color: rgb(3, 1, 1);
+padding:10px;
+height: 50px;
+color:white;
+text-align: center;
+}
+.Profile{
+    height: 700px;
+    width: 100%;
+    padding: 40px 5px 20px 100px;   
+        }
+.profilepic{
+    background: url(../images/profile.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px #635959b0;
+    height: 600px;
+    width: 50%;  
+    margin-right: 50px;       
+}
+.profile_description{
+    height: 700px;
+    width: 48%;    
+    color:grey;  
+    margin-left: 52%;
+    margin-top: -600px;
+    padding: 10px 30px 10px 5px;
+        
+}
+.lable{
+    width: 30%;
+    height: 200px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    
+}
+.datas{
+    width: 70%;
+    height: 200px;
+    color: grey;
+    margin-left: 30%;
+    margin-top: -215px;    
+}
+.download{
+    width: 50%;
+    height: 100px;
+    padding-left: 15px;     
+    float: left;   
+}
+.buttons{
+    border:none;
+    border-radius: 10px;
+    height:50px;
+    width:200px;
+    padding:10px;
+    background-color:blue;
+    color: white;  
+    margin-top: 30px;        
+}
+.button1{
+    border:none;
+    border-radius: 10px;
+    height:50px;
+    width:200px;
+    padding:10px;
+    background-color:rgb(211, 31, 31);
+    color: white;  
+    margin-top: 30px;  
+}
+.options{
+width: 100%;
+height: 380Px;
+background-color: lightgrey;
+text-align: center;
+padding: 5px;
+font-weight: bolder;
+font: 22pt Arial;
+}
+.main_outer{
+    width: 100%;
+    padding:5px 50px;   
+}
+.outer{
+    width:25%;
+    height:250px;
+    padding: 30px 10px;    
+    float: left;
+}
+.details{
+    width:90%;
+    height:200px;
+    background-color: white;    
+    font: 12pt TimesNewRoman;
+    padding: 20px;
+    margin: 5px;
+    float: left;
+}
+.qula{
+    float:left;
+    width: 40%;
+    margin-left: 100px;
+}
+.qualification{
+    height: 600px;
+    width: 100%;
+    padding: 20px 40px;   
+}
+.qualification_Outer{
+    width: 50%;
+    height: 150px;
+    float: left;    
+    padding: 10px 5px 10px 100px;
+}
+.qualification_sub{
+    width: 80%;
+    height: 130px;
+    padding-left: 20px;
+    background-color:lightgrey;
+    float:left
+}
+.works{
+    width: 100%;
+    height:600px;
+    padding:20px;
+    background-color: lightgrey;
+}
+.work_heading{
+    width:20%;
+    height:20px;
+    margin-left: 50%;
+}
+.work_outer{
+    width: 33.33333%;
+    height: 250px;
+    padding: 10px 0px 10px 50px;
+    float: left;
+}
+.workitem1{    
+    background: url(../images/work1.jpg) no-repeat ;
+    background-size: cover;
+    width:90%;
+    height: 200px;    
+    float:left
+}
+.workitem2{
+    background: url(../images/work5.jpg) no-repeat;
+    background-size: cover;
+    width:90%;
+    height: 200px;    
+    float: left;
+}
+.workitem3{
+    background: url(../images/work3.jpg) no-repeat;
+    background-size: cover;
+    width:90%;
+    height: 200px;
+    float: left;
+}
+.workitem4{
+    background: url(../images/work4.jpg) no-repeat;
+    background-size: cover;
+    width:90%;
+    height: 200px;
+    float: left;
+}
+.workitem5{
+    background: url(../images/works.jpg) no-repeat;
+    background-size: cover;
+    width:90%;
+    height: 200px;
+    float: left;
+}
+.workitem6{
+    background: url(../images/work2.jpg) no-repeat;
+    background-size: cover;
+    width:90%;
+    height: 200px;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 20px;
+    }
+.social_icon{
+    width: 50%;
+    height: 100px;
+    margin-left: 40%;
+    padding: 20px;
+    }
+div>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: white solid;   
+    margin-right: 8px;  
+}
+.copyright{
+    color: white;
+    width: 50%;
+    margin-left: 38%
+}
+
+
