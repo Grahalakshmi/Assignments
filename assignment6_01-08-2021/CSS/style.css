@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(99, 93, 92);
+    padding: 40px 60px;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    }
+.main{
+background-color: white;
+height: 2000px;
+width: 100%;
+}
+.menu{
+    width: 100%;
+    height:100px; 
+    
+} 
+    ul{
+    list-style-type: none; 
+    padding: 25px;
+    text-align: center; 
+    width: 100%;  
+}
+ul>li{
+    display: inline;
+    padding: 25px;   
+   }
+ul>li:hover{
+    background-color: greenyellow;
+}
+.heading{
+    font: 60pt bolder;
+    width: 90%;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+       }
+.heading::first-letter{
+    font-size: 70pt;
+    color: greenyellow;
+}
+.banner{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+.slides{
+    width: 90%;
+    height: 700px;
+    padding-top: 50px;
+    margin: auto;
+}
+.slide1{
+    height: 550px;
+    width: 30%;
+    float: left;
+    border: solid black;
+    margin-right: 60px;
+    }
+.slide_header{
+background-color: greenyellow;
+margin: 0%;
+height: 80px;
+color: white;
+text-align: center;
+padding: 20px;
+}
+.slide_content{
+    background-color:  rgb(99, 93, 92);
+    color: white;
+    height: 260px;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px 20px 50px 30px;
+}
+.slide2{
+    height: 550px;
+    width: 30%;
+    float: left;
+    border: solid black;
+    }
+.slide3{
+        height: 550px;
+        width: 30%;
+        float: right;
+        border: solid black;
+}
+.content{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    }
+.content1{
+    height: 270px;
+    width: 30%;
+    float: left;
+}
+ol{
+    list-style-type: none; 
+}
+ol li::before{
+
+    list-style-image: url(../images/bullet.png) !important;
+    height: 100px;
+    width: 30px;
+}
+input{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(99, 93, 92);
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.content2{
+    float: left;
+    margin-left: 40px;
+}
+.content3{
+    float: right;
+}
+.description{
+    text-align: justify; 
+    padding: 5px;  
+}
+.section{
+    height: 190px;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+.section1{
+    width: 45%;
+    height: 150px;
+    float: left;
+}
+.side1{
+    font: 60pt bolder;
+    background-color: yellowgreen;
+    color: white;
+    float: left;
+    height: 150px;
+    width: 20%;
+    text-align: center;
+    padding: 20px 5px 5px 5px;
+}
+.side2{
+    background-color: rgb(99, 93, 92);
+    color: lightgray;
+    height: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    }
+.side2 p{
+    color: greenyellow;
+}    
+.section2{
+    width: 45%;
+    height: 150px;
+    float: right;
+}
+.footer{
+    width: 90%;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    }
