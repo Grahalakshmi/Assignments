@@ -1,0 +1,240 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.heading{
+    width: 100%;
+    height: 100px;    
+   }
+.heading p{
+        font-size: 25px;
+        margin-left: 100px;
+}
+.heading::first-letter{
+    color: red;
+    font-size: 35px;
+}
+.menu{
+    width: 100%;
+    height: 100px; 
+    text-align: right;   
+    }
+ul{
+    list-style-type: none;
+    padding: 20px;   
+}
+li{
+    display: inline;
+    padding: 25px;
+    margin-right: 25px;
+}
+li:hover{
+    background-color:tomato;
+    border-radius: 50%;
+    }
+.image_gallary{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(34, 32, 32, 0.767);
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 50px;
+}
+.image1{
+    background: url(../images/baby.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.image2{
+    height: 400px;
+    width: 100%;
+    background: url(../images/baby6.gif) no-repeat;
+    background-size: cover;
+}
+.image3{
+    height: 400px;
+    width: 100%;    
+    background:url(../images/baby5.jpg) no-repeat;
+    background-size: cover;
+}
+.image4{
+    height: 400px;
+    width: 100%;    
+    background:url(../images/baby3.jpg) no-repeat;
+    background-size: cover;
+}
+.image5{
+    height: 400px;
+    width: 100%;    
+    background:url(../images/baby4.jpg) no-repeat;
+    background-size: cover;
+}
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover{
+    height: 450px;
+    width: 200%;
+}
+.description{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 10px 10px 35px 10px;
+    background-color: rgba(34, 32, 32, 0.767);
+    border-bottom: solid 1px lightgrey;
+}
+.side1{
+    font:30pt bolder;   
+    width: 100%; 
+    margin-left: 5%;
+    border-right: solid 1px white;
+    color: white;
+    text-align: center;
+}
+.side1::first-letter{
+    color: red;    
+}
+.side2{
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: lightgrey;
+    text-align: justify;    
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+.slide{
+    height: 550px;
+    width: 100%;
+    background-color:black;    
+      }   
+.slide_inner{
+        height: 550px;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        column-gap: 5%;
+}
+input{
+    height: 40px;
+    width: 150px;
+    background-color: tomato;
+    color: white;
+    font: 18px bolder;
+    margin-top: 10px;
+}
+.slide_show{
+    width: 100%;
+    height: 500px;
+    color: white;
+    padding: 5px;
+    margin: auto;
+}
+.about{
+    height: 530px;
+    width: 100%;
+    background-color:rgba(34, 32, 32, 0.767) ;
+    padding: 10px;
+        }
+.about_outer{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 45%;
+    column-gap: 5%;
+    align-items:end;
+}
+.about_inner{
+    height: 500px;
+    width: 100%;    
+    display: grid;
+        }
+.heading_1{
+  color: white;
+}
+.about_me{
+    width: 95%;
+    height: 400px;    
+}
+
+.about_detail{
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 75px;
+    }
+.list_item{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.list_item1, .list_item2{
+    width: 100%;
+    height: 200px;
+    color: tomato;
+    padding: 5px;
+}
+.about_gallary{
+    width: 100%;
+    height: 500px;
+    display: grid;
+}
+.gallary{
+    padding: 10px;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%
+
+}
+.photo_gallary img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.copyright{
+    width:100%;
+    height: 80px;
+    margin-left: 10%;
+}
+.icon{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+}
+.icon img{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+

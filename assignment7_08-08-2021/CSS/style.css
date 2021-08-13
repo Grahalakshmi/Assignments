@@ -1,0 +1,229 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+}
+.header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.heading{
+    width: 40%;
+    height: 100px;    
+   }
+.heading p{
+        font-size: 25px;
+        margin-left: 100px;
+}
+.heading::first-letter{
+    color: red;
+    font-size: 35px;
+}
+.menu{
+    width: 60%;
+    height: 100px;    
+    }
+ul{
+    list-style-type: none;
+    padding: 20px;   
+}
+li{
+    display: inline;
+    padding: 25px;
+    margin-right: 25px;
+}
+li:hover{
+    background-color:tomato;
+    border-radius: 50%;
+    }
+.image_gallary{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(34, 32, 32, 0.767);
+    display: flex;
+    padding: 50px;
+}
+.image1{
+    background: url(../images/baby.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 25%;
+}
+.image2{
+    height: 400px;
+    width: 25%;
+    background: url(../images/baby6.gif) no-repeat;
+    background-size: cover;
+}
+.image3{
+    height: 400px;
+    width: 25%;    
+    background:url(../images/baby5.jpg) no-repeat;
+    background-size: cover;
+}
+.image4{
+    height: 400px;
+    width: 25%;    
+    background:url(../images/baby3.jpg) no-repeat;
+    background-size: cover;
+}
+.image5{
+    height: 400px;
+    width: 25%;    
+    background:url(../images/baby4.jpg) no-repeat;
+    background-size: cover;
+}
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover{
+    width: 100%;
+    height: 450px;
+}
+.description{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    padding: 10px 10px 35px 10px;
+    background-color: rgba(34, 32, 32, 0.767);
+    border-bottom: solid 1px lightgrey;
+}
+.side1{
+    font:30pt bolder;   
+    width: 40%; 
+    margin-left: 5%;
+    border-right: solid 1px white;
+    align-items: center;
+    color: white;
+}
+.side1::first-letter{
+    color: red;
+}
+.side2{
+    margin-right: 5%;
+    padding-left: 20px;
+    color: lightgrey;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+.slide{
+    height: 550px;
+    width: 100%;
+    background-color:black;    
+      }   
+.slide_inner{
+        height: 550px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+}
+input{
+    height: 40px;
+    width: 150px;
+    background-color: tomato;
+    color: white;
+    font: 18px bolder;
+    margin-top: 10px;
+}
+.slide_show{
+    width: 20%;
+    height: 500px;
+    color: white;
+    padding: 5px;
+    margin: auto;
+}
+.about{
+    height: 530px;
+    width: 100%;
+    background-color:rgba(34, 32, 32, 0.767) ;
+    padding: 10px;
+    display: flex;
+    }
+.about_outer{
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+.about_inner{
+    height: 500px;
+    width: 25%;    
+    display: flex;
+    flex-direction: column ;
+    }
+.heading_1{
+  color: white;
+}
+.about_me{
+    width: 95%;
+    height: 400px;    
+}
+
+.about_detail{
+    color: white;
+    width: 25%;
+    height: 300px;
+}
+.list_item{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.list_item1, .list_item2{
+    width: 50%;
+    height: 200px;
+    color: tomato;
+    padding: 5px;
+}
+.about_gallary{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.gallary{
+    padding: 10px;
+
+}
+.photo_gallary img{
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+}
+.copyright{
+    width:40%;
+    height: 80px;
+    margin-left: 10%;
+}
+.icon{
+    width: 40%;
+    height: 80px;
+    text-align: right;
+    margin-right: 10%;
+}
+.icon img{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+}
