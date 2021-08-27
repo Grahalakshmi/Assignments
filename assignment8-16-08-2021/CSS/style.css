@@ -1,0 +1,43 @@
+img{
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    padding: 5px;
+    border-bottom:solid 1px lightgray ;
+    }
+.header, .menu_outer, .logo{
+    padding: 0 !important;
+}
+.header_heading{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 350px;
+    color: white;
+    font: 35pt bolder;
+   
+}
+.header_content{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+}
+.header input{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 400px;
+    color: white;
+    background-color: turquoise;
+    height: 50px;
+    width: 150px;
+}
+.menuouter{
+    position: fixed;
+    height: 100vh;
+}
