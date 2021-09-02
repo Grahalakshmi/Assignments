@@ -1,0 +1,129 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.menu p{
+    padding: 5px;
+    border-bottom:solid 1px lightgray ;
+    text-align: center;
+    }
+.main, .menu_outer, .logo{
+    padding: 0 !important;
+}
+.header_heading{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 350px;
+    color: white;
+    font: 35pt bolder;
+   
+}
+.header_content{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+}
+.head1 input{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 400px;
+    color: white;
+    background-color: turquoise;
+    height: 50px;
+    width: 150px;
+}
+.menuouter{
+    position: fixed;
+    margin-top:0;
+    margin-right: 0;
+    height: 100vh;
+}
+.heading{
+    padding: 40px;
+}
+.heading h2{
+    margin: auto;
+    color: turquoise;
+}
+.heading p{
+    padding-top: 10px;
+    text-align: center;
+}
+.about{
+    border-top: solid 5px orange;
+}
+.about_us{   
+    background-color: orange;
+    color: white;
+}
+.detail_list h3{
+    text-align: center;
+    color: rgb(185, 142, 62);
+}
+.detail_list p{
+    text-align: center;
+    color: lightsteelblue;
+}
+.management_detail_outer h3{
+    color: rgb(185, 142, 62);     
+}
+.management_detail_outer p{
+    color: lightsteelblue;
+}
+.services_detail{
+    border-top: solid 5px blueviolet;
+}
+.services{
+    background-color: blueviolet;
+    color: white;
+}
+.button_items button{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.button_items img{
+    height: 15px !important;
+    width: 15px !important;
+    margin-right: 5px !important;
+}
+.portfolio_outer{
+    border-top: solid 5px limegreen;
+}
+.portfolio{
+    background-color: limegreen;
+    padding: 10px;
+    color: white;
+}
+.load{
+    border: solid 1px limegreen;
+    background-color: limegreen;
+    color: white;
+    padding: 25px 75px;
+}
+.contact_outer{
+    border-top: solid 5px tomato;
+}
+.contact{
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+}
+.messgae input{
+    height: 50px;
+    width: 200px;
+    background-color: tomato;
+    color: white;
+}
+.social_media{
+    text-align:center
+}
+.social_media img{
+    height: 15px !important;
+    width: 15px !important;
+    margin-right: 5px !important;   
+}
+.copy p{
+    color: white;
+}
