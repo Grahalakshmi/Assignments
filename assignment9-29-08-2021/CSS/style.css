@@ -1,0 +1,18 @@
+.heading, .card_body{
+    background: url(../imags/baby.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+.about, .Project{
+    font: 25pt bolder;
+}
+.Project{
+    text-align: center;
+}
+.Project_main{
+    background:url(../imags/bgimag.jpg) no-repeat;
+    background-size: cover;
+}
+.button_items button:hover{
+    background-color: tomato;
+}
