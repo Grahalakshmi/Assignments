@@ -1,0 +1,10 @@
+.main{
+   background: url(../images/bg.jpg) repeat;
+}
+.inner{
+    background-color:rgba(32, 138, 209, 0.932);
+}
+.main{
+    margin: 0 !important;
+    /*padding: 0 !important;*/
+}
