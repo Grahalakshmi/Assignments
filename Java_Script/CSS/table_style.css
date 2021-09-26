@@ -1,0 +1,14 @@
+table{
+    background-color: lightcyan;
+    padding: 5px;
+    color: white;
+}
+.main{
+    background-color: thistle;
+}
+.inner{
+   background-color: blanchedalmond; 
+}
+body{
+    background-color: thistle;
+}
