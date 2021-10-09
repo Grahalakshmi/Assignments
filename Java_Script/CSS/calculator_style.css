@@ -23,7 +23,7 @@
 }
 #progressing{
     height: 20px;
-    background: url(../images/bg2.jpg);
+    background-color:blue;
     width: 0%;
     color: white;
 }
