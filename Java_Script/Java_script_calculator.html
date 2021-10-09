@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script Calculator</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="stylesheet" href="CSS/calculator_style.css">
+        <script src="JS/calculator_script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="row main p-5"> 
+            <div class="row  w-75 m-auto inner p-5">
+                <h3>Calculator</h3>
+                <form name = "form"> 
+                    <div class="row w-75 m-auto">
+                        <div class="col column ">
+                            <input type="text" name="answer" id="answer" class="w-100">
+                        </div>
+                    </div>
+                    <div class="row w-75 m-auto">
+                        <div class="col column" onclick="answer.value=Math.log10(answer.value)">log10</div>
+                        <div class="col column" onclick="answer.value=Math.cbrt(answer.value)">cbrt</div>
+                        <div class="col column" onclick="answer.value=Math.sqrt(answer.value)">sqrt</div>
+                        <div class="col column" onclick="answer.value =' ' ">clear</div>
+                    </div>
+                    <div class="row w-75 m-auto">
+                        <div class="col column" onclick="answer.value +='7' ">7</div>
+                        <div class="col column" onclick="answer.value +='8' ">8</div>
+                        <div class="col column" onclick="answer.value +='9' ">9</div>
+                        <div class="col column" onclick="answer.value +='/' ">/</div>
+                    </div>
+                    <div class="row w-75 m-auto">
+                        <div class="col column" onclick="answer.value +='4' ">4</div>
+                        <div class="col column" onclick="answer.value +='5' ">5</div>
+                        <div class="col column" onclick="answer.value +='6' ">6</div>
+                        <div class="col column" onclick="answer.value +='*' ">*</div>
+                    </div>
+                    <div class="row w-75 m-auto">
+                        <div class="col column" onclick="answer.value +='1' ">1</div>
+                        <div class="col column" onclick="answer.value +='2' ">2</div>
+                        <div class="col column" onclick="answer.value +='3' ">3</div>
+                        <div class="col column" onclick="answer.value +='-' ">-</div>
+                    </div>
+                    <div class="row w-75 m-auto">
+                        <div class="col column" onclick="answer.value +='.' ">.</div>
+                        <div class="col column" onclick="answer.value +='0' ">0</div>
+                        <div class="col column" onclick="answer.value =eval(answer.value) ">=</div>
+                        <div class="col column" onclick="answer.value +='+' ">+</div>
+                    </div>
+                </form>
+            </div> 
+        </div>
+        <div class="row main p-5"> 
+            <div class="row  w-75 m-auto inner p-5">
+                <h3>Progress Bar</h3><br><br>
+                <div id="progress">
+                    <div id="progressing"></div>
+                </div><br><br>
+                
+                <input type="button" value="Download" onclick="progress()" class="m-auto" style="width: 100px;">
+            </div>
+        </div>
+
+        <div class="row main p-5"> 
+            <div class="row  w-75 m-auto inner p-5">
+                <div class="col column">
+                     <input type="text" placeholder="Work Item" style="width: 400px;">
+                </div>
+                <div class="col column add_btn">
+                    <input type="button" value="ADD" onclick="add_element()">
+               </div>
+    </body>
+</html>
+        
+    
+                
