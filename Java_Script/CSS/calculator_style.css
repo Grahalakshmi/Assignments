@@ -1,0 +1,29 @@
+.main{
+    margin: 0px !important;
+    background-color: lightseagreen;
+}
+.inner{
+    background-color: lightskyblue;
+
+}
+.column{
+    width: 100px;
+    padding: 10px;
+    background-color: mediumblue;
+    border: solid 1px white;
+    border-bottom: 3px;
+    box-shadow: 2px 2px 20px #AFE9FF;
+    color: white;
+    text-align: center;
+}
+#progress{
+    background-color: grey;
+    height: 20px;
+    padding: 0 !important;
+}
+#progressing{
+    height: 20px;
+    background: url(../images/bg2.jpg);
+    width: 0%;
+    color: white;
+}
